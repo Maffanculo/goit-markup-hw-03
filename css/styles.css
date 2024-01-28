@@ -62,25 +62,18 @@ ol {
 /** header */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .header-navigation {
   display: flex;
   align-items: center;
-}
-
-.header-nav-list {
-  display: flex;
-  margin-left: 76px;
-  gap: 40px;
 }
 
 .header-footer-logo {
@@ -98,12 +91,19 @@ ol {
   color: #2e2f42;
 }
 
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
 .header-list-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
 }
 
 .header-list-link:hover,
