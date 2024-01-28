@@ -68,7 +68,6 @@ ol {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header-navigation {
@@ -113,6 +112,7 @@ ol {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-address-list {
