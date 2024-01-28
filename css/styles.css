@@ -62,13 +62,14 @@ ol {
 /** header */
 
 .header {
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
-  padding: 24px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-navigation {
